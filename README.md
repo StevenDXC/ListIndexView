@@ -9,10 +9,10 @@ useage:
 
 layout:
 
-'''xml
+```xml
 <com.dxc.listindexview.widget.ListIndexView
         android:id="@+id/index_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="right|center_vertical" />
-'''
+```
