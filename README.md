@@ -16,3 +16,13 @@ layout:
         android:layout_height="match_parent"
         android:layout_gravity="right|center_vertical" />
 ```
+
+```code:
+indexView.setIndexLetters(String[]{"A","B",....});
+indexView.setOnTouchIndexListener(new ListIndexView.OnTouchIndexListener() {
+            @Override
+            public void onTouchIndex(int index) {
+                
+            }
+        });
+```
