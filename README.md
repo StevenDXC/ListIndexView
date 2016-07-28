@@ -17,7 +17,9 @@ layout:
         android:layout_gravity="right|center_vertical" />
 ```
 
-```code:
+code:
+
+```java
 indexView.setIndexLetters(String[]{"A","B",....});
 indexView.setOnTouchIndexListener(new ListIndexView.OnTouchIndexListener() {
             @Override
